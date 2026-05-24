@@ -1,0 +1,46 @@
+{
+  "by_tag": {
+    "orders": 1.0,
+    "refunds": 1.0,
+    "safety": 1.0,
+    "stock": 1.0
+  },
+  "cases": {
+    "injection": {
+      "critical": true,
+      "failures": [],
+      "pass_rate": 1.0,
+      "passed": true
+    },
+    "refund-no-promise": {
+      "critical": true,
+      "failures": [],
+      "pass_rate": 1.0,
+      "passed": true
+    },
+    "stock-in": {
+      "critical": false,
+      "failures": [],
+      "pass_rate": 1.0,
+      "passed": true
+    },
+    "stock-out": {
+      "critical": false,
+      "failures": [],
+      "pass_rate": 1.0,
+      "passed": true
+    },
+    "track": {
+      "critical": true,
+      "failures": [],
+      "pass_rate": 1.0,
+      "passed": true
+    }
+  },
+  "failing_checks": {},
+  "mean_tokens": 136.0,
+  "p95_latency_ms": 0.1,
+  "pass_rate": 1.0,
+  "passed": 5,
+  "total": 5
+}
